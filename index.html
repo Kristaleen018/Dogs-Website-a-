@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kristaleen Jailal">
+		<title> Dogs </title>
+		<link rel="stylesheet" href="CSS/dogs.css">
+	</head>
+	
+	<body>
+	
+		<header> 
+			<h1> Those Furry Friends </h1>
+		</header>
+		
+	<main>
+	<section>
+		<h2> Why we love dogs? </h2>
+		 <p>We all know that dogs deserve the title of best pet because anybody who has met one will instantly understand how much dogs are loved. As a loyal companion, dogs provide unwavering devotion, that is, through their much wanted belly rubs, snack pilfering nature and their super enthusiastic support/response for everything you do. If you are thinking of having a fury friend well this page is for you. This website demostrates dogs in a wonderful collection of popular breeds, together with care tips and application to adopt one of your own. </p>
+	</section> 
+	
+	<section>
+		<h2> Top Dog Breeds </h2>
+			<ul>
+				<li> Husky </li>
+				<li> German Shepherd </li>
+				<li> Golden Retriever </li> 
+				<li> Labradora Retriever </li>
+				<li> Corgi </li>
+				<li> Bulldog </li>
+			</ul>
+	</section>
+	
+	<section>
+		<h2> Care Tips For Dog Owners </h2>
+		<ol>
+			<li> Puppies must visit the vet often to get their check-ups and shots. </li>
+			<li> Basic training so they are well behaved. </li>
+			<li> Carry for frequent walks as exercise so they would be healthy and happy to see outside. </li>
+			<li> As directed by the vet, only feed them with nutritious meals, NO snacks. </li>
+			<li> For good hygiene, baths must be regular. </li>
+			<li> Use oatmeal shampoo for dry skin and tea tree oil shampoo for shiny coat. </li>
+			<li> Use coconut oil for breath and teeth. </li>
+		</ol>
+	</section>
+	
+	<section>
+		<h2> Characteristics Of Each Dog Breeds </h2>
+	
+	<table>
+		<tr>
+			<th> Breed </th>
+			<th> Image </th>
+			<th> Behaviour </th>
+			<th> Height </th>
+			<th> Size/Weight </th>
+		</tr>
+		
+		<tr>
+			<td> Husky </td>
+			<td><img src="IMG/husky.jpg" alt="An image of a husky"></td>
+			<td> Playful <br> Friendly <br> Intelligent </td>
+			<td> 53cm-60cm </td>
+			<td> Medium-Large </td>
+		</tr>
+		
+		<tr> 
+			<td> German Shepherd </td>
+			<td><img src="IMG/germanshepherd.jpg" alt="An image of a german shepherd"></td>
+			<td> Protective <br> Loyal <br> Energetic <br> Intelligent </td>
+			<td> 55cm-65cm </td>
+			<td> Large </td>
+		</tr>
+		
+		<tr>
+			<td> Golden Retriever </td>
+			<td><img src="IMG/goldenretriever.jpg" alt="An image of a golden retriever"></td> 
+			<td> Gentle <br> Friendly <br> Loyal <br> Family Dog </td>
+			<td> 51cm-61cm </td>
+			<td> Large </td>
+		</tr>
+		
+		<tr>
+			<td> Labrador Retriever </td>
+			<td><img src="IMG/labrador.jpg" alt="An image of a labrador retriever"></td>
+			<td> Friendly <br> Gentle <br> Loyal <br> Family Dog </td>
+			<td> 55cm-62cm </td>
+			<td> Large </td>
+		</tr>
+	
+		<tr>
+			<td> Corgi </td>
+			<td><img src="IMG/corgi.jpg" alt="An image of a corgi"></td>
+			<td> Loyal <br> Fearless <br> Independent </td>
+			<td> 25cm-30cm </td>
+			<td> Small-Medium </td>
+		</tr>
+		
+		<tr> 
+			<td> Bulldog </td>
+			<td><img src="IMG/bulldog.jpg" alt="An image of a bulldog"></td>
+			<td> Sweet <br> Gentle <br> Devoted </td>
+			<td> 31cm-40cm </td>
+			<td> Medium </td>
+		</tr>
+	</table>
+	</section>
+	
+	<section>
+		<h2> Application Form to Adopt a Furry Friend </h2>
+	
+	<form method="post" action="response.html">
+	<fieldset>
+		<legend> User Information </legend>
+		<label> &ast;Title&colon; </label>
+		<select id="title" name="title">
+		<option value="" selected="selected"> Select a title </option>
+			<option value="Ms."> Ms. </option>
+			<option value="Mrs."> Mrs. </option>
+			<option value="Mr."> Mr. </option>
+		</select> <br> <br>
+		
+		<label> &ast;Name&colon; </label>
+			<input type="text" id="fullname" name="fname" size="30"> <br> <br>
+					
+		<label> &ast;Date of Birth&colon; </label>
+			<input type="date" id="dob" name="dob"> <br> <br>
+					
+		<label> &ast;Gender&colon; </label>	
+			Male<input type="radio" id="m_gender" name="gender" value="Male">
+			Female<input type="radio" id="f_gender" name="gender" value="Female"> <br> <br>
+		
+		<label class="formatLabel"> &ast;Address&colon; </label>
+			<textarea id="address" name="address" rows="5" cols="30"></textarea> <br> <br>
+			
+		<label class="formatLabel"> &ast;Email&colon; </label>
+			<input type="email" id="emailAdd" name="emailAdd"> <br> <br>
+			
+		<label> &ast;Telephone Number&colon; </label>
+			<input type="tel" id="phoneNum" name="phoneNum" placeholder="868-637-6780" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br> <br>
+			
+	</fieldset>
+	
+	<fieldset>
+		<legend> Preference </legend>
+		<label> &ast;Preferred Breed&colon; </label>
+			Husky<input type="checkbox" id="h_breed" name="breed" value="Husky"> &nbsp; &nbsp;
+			Golden Retriever<input type="checkbox" id="g_breed" name="breed" value="Golden Retriever"> &nbsp; &nbsp;
+			German Shepherd<input type="checkbox" id="s_breed" name="breed" value="German Shepherd"> &nbsp; &nbsp; 
+			Labrador Retriever<input type="checkbox" id="l_breed" name="breed" value="Labrador Retriever"> &nbsp; &nbsp;
+			Corgi<input type="checkbox" id="c_breed" name="breed" value="Corgi"> &nbsp; &nbsp;
+			Bulldog<input type="checkbox" id="b_breed" name="breed" value="Bulldog"> <br> <br>
+		
+		<label> &ast;Experience&colon; </label>	
+			First Time Owner<input type="radio" id="f_experience" name="experience" value="First Time Owner">
+			Experienced<input type="radio" id="e_experience" name="experience" value="Experienced"> <br> <br>
+			
+		<span id="buttons">
+			<input type="submit" value="SUBMIT"> &nbsp; &nbsp;
+			<input type="reset" value="CLEAR">
+		</span>
+	</fieldset>
+	</form>
+	
+	</section>
+	</main>
+	
+	<footer>
+		<h5> Click the following links to learn more about dogs </h5> 
+		<a href="https://www.akc.org" target="_blank"> American Kennel Club </a> <br>
+		<a href="https://www.aspca.org" target="_blank"> ASPCA </a>
+	</footer>
+	
+	</body>
+	</html>
+			
+		
+		
